@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: node-red-bot
+  host: node-red-bot
+  disk_quota: 1024M
+  services:
+  - node-red-bot-cloudantNoSQLDB
+  - Language Translator-i8
+  - Conversation-hq
